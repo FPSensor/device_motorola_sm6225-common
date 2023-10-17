@@ -43,6 +43,9 @@ TARGET_NO_BOOTLOADER := true
 # Camera
 MALLOC_SVELTE_FOR_LIBC32 := true
 
+# Disable sparse for ext images
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+
 # Display
 TARGET_USES_DISPLAY_RENDER_INTENTS := true
 TARGET_USES_GRALLOC4 := true
