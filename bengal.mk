@@ -447,6 +447,13 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
 
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.moto_khaje
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/keylayout/double-tap.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/double-tap.kl
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti

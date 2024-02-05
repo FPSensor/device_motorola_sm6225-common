@@ -180,6 +180,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/fsg:/fsg
 
 # Power
+TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/lineagehw/touch/power-mode.cpp
 TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
