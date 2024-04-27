@@ -1,3 +1,6 @@
+# App
+ro.launcher.blur.appLaunch=0
+
 # App freezer
 ro.config.use_freezer=false
 
