@@ -237,6 +237,11 @@ ro.vendor.sensors.glance_approach=false
 ro.vendor.sensors.mot_ltv=true
 ro.vendor.sensors.pug=false
 
+# Suspend properties
+suspend.max_sleep_time_millis=40000
+suspend.short_suspend_backoff_enabled=true
+suspend.short_suspend_threshold_millis=2000
+
 # USB
 vendor.usb.controller=4e00000.dwc3
 vendor.usb.device=4e00000.ssusb
