@@ -62,7 +62,7 @@ LOC_HIDL_VERSION := 4.0
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/bliss/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 ODM_MANIFEST_FILES := $(COMMON_PATH)/manifest-qva.xml
@@ -131,7 +131,7 @@ TARGET_MODULE_ALIASES += \
     wlan.ko:qca_cld3_wlan.ko
 
 # Partitions
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/bliss/config/BoardConfigReservedSize.mk
 
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_USES_METADATA_PARTITION := true
