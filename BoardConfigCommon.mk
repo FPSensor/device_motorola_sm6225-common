@@ -37,6 +37,9 @@ BOARD_SUPPORTS_OPENSOURCE_STHAL := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
+# Bluetooth
+TARGET_USE_QTI_BT_STACK := true
+
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
@@ -64,7 +67,8 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/framework_compatibility_matrix.xml \
     $(COMMON_PATH)/framework_compatibility_matrix_dolby.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/bliss/config/device_framework_matrix.xml
+    vendor/xperience/interfaces/vendor_framework_compatibility_matrix.xml
+
 DEVICE_MANIFEST_FILE := \
     $(COMMON_PATH)/manifest.xml \
     $(COMMON_PATH)/manifest_dolby.xml
